@@ -1,0 +1,78 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+
+/* GENERAL SETTINGS */
+
+*{
+    box-sizing : border-box;
+}
+
+body{
+    padding : 100px;
+    background-color : #000000;
+    font-family : 'Major Mono Display';
+    color : white;
+}
+
+
+/* MAIN SECTION */
+
+main{
+    width : 100%;
+}
+
+h1{
+    text-align : center;
+    font-size : 3rem;
+}
+
+h2{
+    text-align : center;
+    font-size : 2rem;
+}
+
+button{
+    margin: 0 auto;
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius:100%;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    -ms-border-radius:100%;
+    -o-border-radius:100%;
+}
+
+
+/* CARDS */
+
+.container{
+    height : 35vh;
+    width : 35vh;
+    margin : 100px auto;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-around;
+    align-items: space-around;
+}
+
+@media screen and (orientation : landscape){
+    .container{
+        height : 35vw;
+        width : 35vw;
+    }
+}
+
+.card{
+    height: 40%;
+    width: 40%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #dddddd;
+    border : white 5px solid;
+}
